@@ -21,8 +21,7 @@ export default {
     return {
       skills: [
         { skill: "Vue.js" },
-        { skill: "Frontend Developer" },
-        { skill: "Frontend Designer" },
+        { skill: "Frontend Developer" }
       ],
     };
   },
@@ -68,6 +67,8 @@ p {
 }
 
 .container {
+  max-width: 800px;
+  margin: auto;
   box-shadow: 0px 0px 40px lightgray;
 }
 
